@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es2017",            
+    "module": "commonjs", 
+    "noImplicitAny": false
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "ignore": [
+    "src/renderer/**/*"
+  ]
+}

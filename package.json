@@ -1,0 +1,27 @@
+{
+  "name": "p2p-chatting-app",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "private": true,
+  "scripts": {
+    "watch": "tsc -w --outDir build/",
+    "start": "electron build/index.js"
+  },
+  "dependencies": {
+    "choo": "^7.1.0",
+    "discovery-swarm": "^6.1.0",
+    "get-port": "^6.1.2",
+    "hypercore": "^9.12.0",
+    "hyperdiscovery": "^10.2.2",
+    "moment": "^2.29.3",
+    "nanobus": "^4.5.0",
+    "random-access-memory": "^4.1.0",
+    "tsify": "^5.0.4",
+    "watchify": "^4.0.0"
+  },
+  "devDependencies": {
+    "electron": "^18.2.0",
+    "electron-packager": "^15.5.1",
+    "typescript": "^4.6.4"
+  }
+}
